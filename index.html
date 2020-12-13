@@ -58,7 +58,9 @@
               Создание сайтов, продвижение и обслуживание.
             </h1>
             <p class="hero__text">Эффективные решения для вашего бизнеса</p>
-            <button type="button" class="hero__btn">Заказать услугу</button>
+            <button type="button" class="hero__btn" data-modal-open>
+              Заказать услугу
+            </button>
           </div>
         </div>
       </section>
@@ -456,5 +458,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop backdrop--hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close>Закрыть</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
